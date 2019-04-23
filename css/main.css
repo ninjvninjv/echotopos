@@ -95,6 +95,7 @@ map {
   position: absolute;
   top: 45px;
   left: 45px;
+  overflow:hidden;
 }
 
 #impressum p {
