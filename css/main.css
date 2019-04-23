@@ -1,0 +1,103 @@
+
+body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  font-family: 'Avenir Next';
+}
+
+* {
+  cursor:default;
+}
+
+img {
+  display: none;
+  margin: auto;
+  height: 95vh;
+  width: 100vw;
+}
+
+map {
+  display: block;
+}
+
+#starting_point {
+  box-sizing: content-box;
+  border: solid black 15px;
+  border-radius: 100%;
+  width:5px;
+  height: 5px;
+  background-color: orange;
+  position: absolute;
+  top: calc(50% - 28px);
+  left: calc(50% - 17px);
+  cursor: pointer;
+}
+
+#starting_point:hover, #star:hover {
+  transform: scale(1.5);
+}
+
+#star {
+  box-sizing: content-box;
+  border: solid black 15px;
+  border-radius: 100%;
+  width: 5px;
+  height: 5px;
+  background-color: orange;
+  position: absolute;
+  top: 30px;
+  right: 20vw;
+  cursor: pointer;
+  display: none;
+  z-index: 20;
+}
+
+.ticker {
+  position: absolute;
+  bottom: 0;
+  padding: 2vh 0 0 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100vw;
+  font-size: 12pt;
+  line-height: 30pt;
+  text-align: center;
+  overflow: hidden;
+  background-color: black;
+  color: /*#c1c1c1 #ff3f00*/ lightgrey;
+}
+
+.ticker ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.ticker ul li {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+#impressum {
+  padding: 0;
+  margin: 0;
+  line-height: 16pt;
+  color: /*#c1c1c1 #ff3f00*/ lightgrey;
+  width: 35vw;
+  height: 80vh;
+  overflow: scroll;
+  display: none;
+  position: absolute;
+  top: 45px;
+  left: 45px;
+}
+
+#impressum p {
+  margin-top: 0;
+  padding-top: 0;
+}
