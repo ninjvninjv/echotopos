@@ -2,7 +2,7 @@
 
 Project by Nina Overkott, for the Palais Idéal seminar by Sereina Rothenberger, at the HfG Karlsruhe, WS 2018-19.
 
-## Note
+## Note on sound palaces
 
 Voids are history-loaded spaces waiting to be rethought, redesigned, redevised, rebuild. Here, I use dismantling as an act of documentation and creation. Dismantling the last remains of the physical space to create an immaterial structure to exist in its place. Can sound be sufficient to give the feeling of a place, to transport the mind into a coherent immaterial structure?
 
